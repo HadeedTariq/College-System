@@ -1,0 +1,51 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8px;
+    background: linear-gradient(#3576e8,#00a8ff);
+    color: white;
+}
+.nav h1{
+    font-size: 26px;
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+.ul{
+    display: flex;
+    list-style: none;
+}
+.ul li{
+    padding: 0 8px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.user-info{
+    display: flex;
+    align-items: center;
+}
+.user-info button{
+    border: none;
+    background-color: rgb(72, 40, 87);
+    color: white;
+    padding: 4px 7px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 0 8px;
+}
+.mode{
+    margin: 0 8px;
+}
+.user-info p{
+    color: white;
+    padding: 5px 8px;
+    background-color: brown;
+    border-radius: 5px;
+    margin: 0 5px;
+    font-weight: bold;
+    font-size: 18px;
+}

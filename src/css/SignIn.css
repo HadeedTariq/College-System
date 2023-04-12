@@ -1,0 +1,45 @@
+.sign-up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    min-height: 90vh;
+}
+.user-box{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(222, 238, 253);
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 3px rgba(137, 137, 137, 0.913);
+    height: fit-content;
+}
+.user-box input{
+    margin: 7px 0;
+    padding: 5px;
+    font-size: 18px;
+    border: none;
+    border-bottom: 1px solid grey;
+    outline: none;
+}
+.user-box button{
+    padding: 5px;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 5px 0;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(8, 56, 249);
+    color: white;
+    border-radius: 5px;
+}
+.user-box p{
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.google-auth{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+}
